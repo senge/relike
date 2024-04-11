@@ -1,0 +1,17 @@
+Package: relike
+Type: Package
+Title: Tools for uncertainty quantification using methods based on relative likelihood
+Version: 0.9
+Date: 2022-11-29
+Authors@R: c(
+    person(given = "Robin", family = "Senge", role = c("aut", "cre"),
+           email = "rsenge@inovex.de")
+    )
+Depends:
+Suggests:
+    bootstrap
+Description: A collection of tools and experiments for distinguishing aleatoric and epistemic 
+uncertainty in the realm of machine learning predictions
+License: GPL-2
+Encoding: UTF-8
+RoxygenNote: 7.1.2
